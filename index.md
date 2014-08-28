@@ -1,38 +1,29 @@
-### 645 Broadway Systems Information
+### How to Edit the Content of this Website
 
-On this web is all the information and links to manage hardware and software associated with the equipment on the premises of 645 Broadway - Kebler/Yocom Residence.
+If you are seeing this then you have a functioning copy of mdwiki running on a webserver somewhere
 
-Information on how to edit the content of this website is [here](edit.md)
+This is a simple template website for an MDwiki based website.
 
------------
+For details see the [MDwiki website](http://dynalon.github.io/mdwiki/#!index.md)
 
-### Equipment IPs and information
+Use any plain text editor to edit the .md files in the folder.  [Sublime text editor version 3](http://www.sublimetext.com/) is a great choice. 
 
-#### Wan
+There is a canned menu structure found in the navigation.md file.  If you change the names of choices and associated files and rename them as well you can customize and change to suit.
 
-One can figure out the outside the WAN (outside) IP address for the network by visiting [this](http://whatismyipaddress.com/) website from within the network.   Since a static IP has not been bought it can possibly change but ** as of 8/2014 it is 208.100.170.115 **.  A change in this address would require a change in all links in the remotelogins.md page.   
+The Site name on the nav bar is set at the top of the navigation.md file
 
-####  Advanced IP scanner
+The website title used in the browser is set in the config.json file
 
-Installed on the Master is a program Advanced IP Scanner which will find active devices on the network.   This is the output from [ipscanner](iplist.html) as on 8-2014
+index.html is the actual MDwiki program and contains all the javascript to render and load the markdown (.md) pages.
 
-#### Usernames and Passwords
+You can pick a canned bootswatch theme and set the default in the navigation.md file.   It is possible to do custom styling but that involves a custom theme.  (see mdwiki site)
 
-The usernames and passwords for all logins of the system are securely stored in the dgk-rsk.kdbx keepass database which is autoopened from either Richard's or David's personal databases.  The password to open this database can be found there if need be (shouldn't need to know it unless you are trying to open it directly from the master).  Using keefox with firefox makes logging in automatic.
+index.md is the "home" page and is rendered and served by default when index.html is loaded (which should be the default file name on your server or be changed to match...e.g. default.htm)
 
-#### List of Equipment
+The MDwiki site has some basic markdown syntax but a search of the internet will find you many resources and cheat sheets.
 
-IP address column links take to you local (192.168.0.x) logins.  See remote logins page for those equipment accessible from outside the house.   Links in the name column take you to a corresponding page of further detailed information.
+config.json holds the few site configurations
 
-| IPAddress (login)		     | Name (more info)          |  Desciption	| Location|
-| ------------- |:--------------|:--------------|:--------------|	
-| [192.168.0.1](http://192.168.0.1)| [Elf-Basement](elf-basement.md)      |Gateway Router- Cisco Valet|Basement|	
-| [192.168.0.2](https://192.168.0.2) | [Master](master.md)      |Cloud Sever|Basement|		
-| [192.168.0.2](https://192.168.0.2:6547)  | [UPS](master.md) |APC UPS Accessed via Master Port 6547 Sever|Basement|		
-| 192.168.0.3   | [5000 LC](5000lc.md)      |Litetouch/Savant Lighting System - See notes for access|Basement|
-| [192.168.0.5:3000](http://192.168.0.5:3000)   | [Tekmar](tekmar.md)      |House Radient Heating System|Basement|
-| [192.168.0.6](http://192.168.0.6) | ELF-Studio |Wireless Access Point-Linksys EA4500|Studio|
-| [192.168.0.7](http://192.168.0.7) | ELF-Main  |Wireless Access Point-Engenius ECB600 |Kitchen|
-| [192.168.0.8](http://192.168.0.8) | ELF-Front |Wireless Access Point-Linksys SmartWifi -EA3500|Studio|
-| [192.168.0.5:8081](http://192.168.0.5:8081)  | PowerStrip |Remote Access Power Strip - port 8081 |Rack|
-| [192.168.0.13](http://192.168.0.13) | Printer |HP Envy 110 |Laundry Room|
+when you want to deploy it's as simple as moving a copy of the directory to whereever you want to serve it.
+Or if you are using git when editing your site (which is recommneded) you can push the master branch to where you deploy.
+

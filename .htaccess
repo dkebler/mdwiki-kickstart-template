@@ -1,4 +1,4 @@
-AuthUserFile D:\cloud-data\richard\files\documents\pwvault\.htpasswd
+AuthUserFile path/to/.htpasswd
 AuthName "Members Only"
 AuthType Basic
 require valid-user

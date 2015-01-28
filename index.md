@@ -24,8 +24,11 @@ The MDwiki site has some basic markdown syntax but a search of the internet will
 
 config.json holds the few site configurations
 
-when you want to deploy it's as simple as moving a copy of the directory to whereever you want to serve it.
-Or if you are using git when editing your site (which is recommneded) you can push the master branch to where you deploy.
+when you want to deploy it's as simple as moving a copy of the directory to wherever you want to serve it.
 
------------------
+Or if you are using git when editing your site (which is recommended) you can push the master branch to where you deploy.   One possibility is a S3 bucket folder at AWS.  It's very easy to do using jgit
+
+
+
+
 

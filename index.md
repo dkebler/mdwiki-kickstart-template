@@ -27,3 +27,5 @@ config.json holds the few site configurations
 when you want to deploy it's as simple as moving a copy of the directory to whereever you want to serve it.
 Or if you are using git when editing your site (which is recommneded) you can push the master branch to where you deploy.
 
+-----------------
+

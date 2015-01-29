@@ -24,7 +24,11 @@ The MDwiki site has some basic markdown syntax but a search of the internet will
 
 config.json holds the few site configurations
 
-when you want to deploy it's as simple as moving a copy of the directory wherever you want to serve it.  Amazon S3 is a nice option and they have a free tier and you can assign your url to a bucket.
+when you want to deploy it's as simple as moving a copy of the directory wherever you want to serve it.  Amazon Web Services(AWS) S3 is a nice option and they have a free tier and you can assign your (sub)domain to a bucket is using AWS Route 53.
+
+For version control, backup and collaboration I suggest using git (smartgit is a good git gui).  If you go the AWS route then it's easy to use jgit to maintain a bare remote repository on S3.  Here is a link to more details on using jgit with S3.
+
+http://www.fancybeans.com/blog/2012/08/24/how-to-use-s3-as-a-private-git-repository/
 
 
 

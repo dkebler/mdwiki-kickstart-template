@@ -26,7 +26,12 @@ config.json holds the few site configurations
 
 when you want to deploy it's as simple as moving a copy of the directory to wherever you want to serve it.
 
-Or if you are using git when editing your site (which is recommended) you can push the master branch to where you deploy.   One possibility is a S3 bucket folder at AWS.  It's very easy to do using jgit
+Or if you are using git when editing your site (which is recommended) you can push the master branch to where you deploy.   One possibility is a S3 bucket folder at AWS.  It's very easy to do using jgit.
+
+Here is a link to more details on using jgit with S3.
+http://www.fancybeans.com/blog/2012/08/24/how-to-use-s3-as-a-private-git-repository/
+
+
 
 
 

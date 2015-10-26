@@ -1,4 +1,4 @@
-# MDWiki Quickstart Template
+# MDWiki Kickstart Template
 This a directory that can be cloned or downloaded to get going quickly with a [mdwiki](http://dynalon.github.io/mdwiki/#!index.md) based web .
 After cloning you just point your browser to the file path and then edit away on [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) files with your favorite editor (e.g. sublime)
 

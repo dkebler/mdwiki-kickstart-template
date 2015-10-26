@@ -1,10 +1,13 @@
 ### How to Edit the Content of this Website
 
-If you are seeing this then you have a functioning copy of mdwiki running on a webserver somewhere
+If you are seeing this then you have a functioning copy of mdwiki kickstart template
 
 This is a simple template website for an MDwiki based website.
 
 For details see the [MDwiki website](http://dynalon.github.io/mdwiki/#!index.md)
+
+Here is the readme for the github repo of this template wiki that you can clone
+
 
 Use any plain text editor to edit the .md files in the folder.  [Sublime text editor version 3](http://www.sublimetext.com/) is a great choice. 
 

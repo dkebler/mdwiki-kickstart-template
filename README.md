@@ -10,9 +10,11 @@ The beauty of MDwiki is that all the javascript code to render and display the m
 
 This makes an MDwiki site portable.  Just put it anywhere and point your browser to that location be it a url or a local file path.
 
-This means MDwikis can be put places like an S3 bucket at Amazon Web services or as simple as pushing the repo you cloned to a repo at your account using a [gh-pages branch](http://www.damian.oquanta.info/posts/one-line-deployment-of-your-site-to-gh-pages.html)
+This means MDwikis can be put places like an S3 bucket at Amazon Web services or as simple as pushing the repo you cloned to a repo at your Github account using a [gh-pages branch](http://www.damian.oquanta.info/posts/one-line-deployment-of-your-site-to-gh-pages.html)
 
 Here you can [see the template site](http://david.kebler.net.s3.amazonaws.com/mdwiki-template/index.html#!index.md) served from an S3 Bucket). 
+
+Here you can [see the template site](http://dkebler.github.io/mdwiki-kickstart-template/#!index.md) served from a gh-pages branch of the repo). 
 
 Of course it can be "served" from any regular server like Apache.
 

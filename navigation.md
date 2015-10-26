@@ -1,4 +1,4 @@
-# Site Name
+# See navigation.md to change this Title
 
 [Home](index.md)
 

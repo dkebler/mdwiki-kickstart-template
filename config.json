@@ -2,5 +2,5 @@
     "lineBreaks": "gfm",
     "additionalFooterText": "Last Edited X-XX-XXXX --- ",
     "anchorCharacter": "&#x2693;",
-    "title": "Website Title in config.json"
+    "title": "See config.json"
 }

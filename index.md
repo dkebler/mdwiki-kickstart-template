@@ -16,7 +16,7 @@ index.html is the actual MDwiki program and contains all the javascript to rende
 
 You can pick a canned bootswatch theme and set the default in the navigation.md file.   It is possible to do custom styling but that involves a custom theme.  (see the [MDwiki website](http://dynalon.github.io/mdwiki/#!index.md))
 
-index.md is the "home" page and is rendered and served by default when index.html is loaded (which should be the default file name on your server or be changed to match...e.g. default.htm)
+index.md is the "home" page and is rendered and loaded by default when index.html is loaded.
 
 The MDwiki site has some basic markdown syntax but a search of the internet will find you many resources and cheat sheets.
 [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)

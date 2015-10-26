@@ -1,9 +1,6 @@
 ### How to Edit the Content of this Website
 
-If you are seeing this then you have a functioning copy of [mdwiki kickstart template](https://github.com/dkebler/mdwiki-kickstart-template). This is a simple template for a MDwiki based website.  
-
-
-For details see the [MDwiki website](http://dynalon.github.io/mdwiki/#!index.md)
+If you are seeing this then you have a functioning copy of [mdwiki kickstart template](https://github.com/dkebler/mdwiki-kickstart-template). This is a simple template for a [MDwiki based website](http://dynalon.github.io/mdwiki/#!index.md)
 
 Here is github repo of this template wiki that you can clone and has more details on usage and deployment.  [mdwiki kickstart template](https://github.com/dkebler/mdwiki-kickstart-template)
 
